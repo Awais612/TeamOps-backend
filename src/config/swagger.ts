@@ -2,6 +2,8 @@ import swaggerJsdoc from "swagger-jsdoc";
 import * as dotenv from "dotenv";
 dotenv.config();
 
+// Swagger configuration for TeamOps API
+
 interface SwaggerOptions {
   definition: object;
   apis?: string[];

@@ -11,7 +11,8 @@
     "dev": "ts-node-dev --respawn --transpile-only --clear --ignore-watch node_modules --notify false src/server.ts",
     "build": "tsc",
     "start": "node dist/server.js",
-    "prepare": "husky"
+    "prepare": "husky",
+    "type-check": "tsc --noEmit"
   },
   "dependencies": {
     "bcrypt": "^6.0.0",
@@ -42,6 +43,6 @@
     "typescript": "^5.9.3"
   },
   "lint-staged": {
-    "*.ts": "tsc --project tsconfig.json --noEmit"
+    "*.ts": "yarn type-check"
   }
 }
