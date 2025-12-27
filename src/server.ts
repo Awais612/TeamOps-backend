@@ -23,10 +23,8 @@ app.use(
   })
 );
 
-// Swagger API Documentation
 app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerSpecs));
 
-// Routes
 app.use("/", healthRoute);
 
 const startServer = async () => {
