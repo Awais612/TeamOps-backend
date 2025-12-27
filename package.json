@@ -42,6 +42,6 @@
     "typescript": "^5.9.3"
   },
   "lint-staged": {
-    "*.ts": "tsc --noEmit --pretty false"
+    "*.ts": "tsc --project tsconfig.json --noEmit"
   }
 }
