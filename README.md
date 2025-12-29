@@ -13,6 +13,7 @@ Remote teams often face challenges such as:
 - Unclear ownership of tasks
 - Difficulty tracking progress across teams
 - Over-dependence on sync meetings
+_ Time spent on each task.
 
 TeamOps addresses these problems by centralizing:
 - Team structure
